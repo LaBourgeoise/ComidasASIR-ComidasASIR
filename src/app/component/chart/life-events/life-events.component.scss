@@ -5,4 +5,33 @@
 
 .events-container .events-content .events-header{
     border: 1px solid #cfd2e2;
-    border-top-left
+    border-top-left-radius: 10px;
+    padding: 14px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+}
+
+.events-container .events-content .events-body{
+    box-shadow: inset 1px 1px 7px 1px #aaaebd;
+    overflow: auto;
+    padding: 14px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.events-body .tileStyle{
+    padding: 16px 20px 12px 20px;
+    font-size: 13px;
+    box-shadow: 0px 0px 0px 1px #bbc1d8;
+    margin: 3%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    float: left;
+    width: 14%;
+}
+
+.events-body .tileStyle .tile-text{
+    margin-top: 5px;
+}
