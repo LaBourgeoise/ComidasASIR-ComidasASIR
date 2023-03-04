@@ -1,4 +1,19 @@
 <div class="events-container">
     <div class="events-content" cdkDropListGroup>
         <div class="events-header">
-            <span>Add 
+            <span>Add Life Events</span>
+        </div>
+        <div class="events-body" cdkDropList
+        [cdkDropListData]="eventsList"
+        (cdkDropListDropped)="drop($event)">
+            <div class="tileStyle" cdkDrag *ngFor="let items of eventsList">
+                <div>
+                    <app-icon-svg [icon]="items.icon" [style]="items.color"></app-icon-svg>
+                </div>
+                <div class="tile-text">
+                    <span>{{items.name}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
