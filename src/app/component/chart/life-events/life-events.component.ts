@@ -57,3 +57,36 @@ export class LifeEventsComponent implements OnInit {
     {
       'icon': 'icon-rocket',
       'name': 'Startup',
+      'color': '#cee9fe',
+      'goalTitle': 'Establish New Startup',
+      'goalAmount': '45 Lac',
+      'goalYear': 'Dec 2022'
+    },
+    {
+      'icon': 'icon-gamepad',
+      'name': 'Gadget',
+      'color': '#d0f2e7',
+      'goalTitle': 'Buy IPhone',
+      'goalAmount': '1 Lac',
+      'goalYear': 'Dec 2021'
+    },
+    {
+      'icon': 'icon-awareness-ribbon',
+      'name': 'Charity',
+      'color': '#e5e1ff',
+      'goalTitle': 'Fund Someone',
+      'goalAmount': '1 Lac',
+      'goalYear': 'Nov 2021'
+    },
+    {
+      'icon': 'icon-puzzle-piece',
+      'name': 'Custom',
+      'color': '#f5e1ef',
+      'goalTitle': 'Upskill',
+      'goalAmount': '1 Lac',
+      'goalYear': 'Jan 2022'
+    }
+  ]
+
+  drop(event: CdkDragDrop<string[]>) {
+    
