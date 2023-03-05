@@ -27,4 +27,33 @@ export class LifeEventsComponent implements OnInit {
       'name': 'Education',
       'color': '"box-shadow":"inset 50px 0px 0px 0px #d0f2e7"',
       'goalTitle': 'Masters',
-      'goalA
+      'goalAmount': '41.43 Lac',
+      'goalYear': 'Feb 2021'
+    },
+    {
+      'icon': 'icon-family_restroom',
+      'name': 'Family',
+      'color': 'inset 50px 0px 0px 0px #e5e1ff',
+      'goalTitle': 'Buy House',
+      'goalAmount': '95 Lac',
+      'goalYear': 'Jan 2029'
+    },
+    {
+      'icon': 'icon-beach_access',
+      'name': 'Vacation',
+      'color': '#f5e1ef',
+      'goalTitle': 'Switzerlan Trip',
+      'goalAmount': '5 Lac',
+      'goalYear': 'Mar 2022'
+    },
+    {
+      'icon': 'icon-directions_car',
+      'name': 'Vehicle',
+      'color': '#f6ecd6',
+      'goalTitle': 'Buy Audi',
+      'goalAmount': '75 Lac',
+      'goalYear': 'Feb 2027'
+    },
+    {
+      'icon': 'icon-rocket',
+      'name': 'Startup',
