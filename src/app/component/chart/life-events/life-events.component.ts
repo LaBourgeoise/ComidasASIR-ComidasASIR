@@ -89,4 +89,9 @@ export class LifeEventsComponent implements OnInit {
   ]
 
   drop(event: CdkDragDrop<string[]>) {
-    
+    if (event.previousContainer !== event.container) {
+      transferArrayItem(event.previousContainer.data, event.container.data, event.previousIndex, event.currentIndex)
+    }
+  }
+
+}
