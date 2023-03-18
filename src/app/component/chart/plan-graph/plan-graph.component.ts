@@ -67,4 +67,25 @@ chartOption: EChartOption = {
         itemStyle: {normal: {areaStyle: {type: 'default'}}},
           data: [],
           axisLabel: {
-            forma
+            formatter: function (value) {
+                return  value==0?'': value == 100 ? 1 + 'Cr' : value + 'L';
+            },
+        }
+      }
+  ],
+  series : [
+      {
+          name:'plan-graph',
+          type:'line',
+          smooth: true,
+           tooltip : {             // Series config.
+                trigger: 'item',
+                show: true,
+                backgroundColor : 'rgba(60,59,93,255)',
+                borderColor : 'rgba(60,59,93,255)',
+                borderRadius : 8,
+                borderWidth: 1,
+                padding: 12,
+                textStyle : {
+                  color: '#fff',
+                  decoration
