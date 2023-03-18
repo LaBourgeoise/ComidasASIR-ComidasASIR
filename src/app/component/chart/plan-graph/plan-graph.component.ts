@@ -25,4 +25,30 @@ chartOption: EChartOption = {
       realtime : true,
       y: 560,
       height: 20,
-      fillerCo
+      fillerColor: 'rgba(135,175,255,255)',
+      handleColor: '#fff',
+      start : 0,
+      end : 25
+  },
+    
+  xAxis : [
+      {
+          type : 'category',
+          boundaryGap : false,
+          data : function (){
+              var list = [];
+              var n = 28;
+              list=[28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 148];
+              return list;
+          }()
+      }
+  ],
+  yAxis : [
+      {
+          type : 'value',
+          
+          /* There is no proper documentation for Zrender which is used here */
+          /* to create the gradient color effect below the line graph */
+          
+        //   itemStyle: {
+  
