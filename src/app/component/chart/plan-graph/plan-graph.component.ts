@@ -51,4 +51,20 @@ chartOption: EChartOption = {
           /* to create the gradient color effect below the line graph */
           
         //   itemStyle: {
-  
+        //     normal: {
+        //         areaStyle: {
+        //             color : (function (){
+        //                 var zrColor = require('zrender/tool/color');
+        //                 return zrColor.getLinearGradient(
+        //                     0, 200, 0, 400,
+        //                     [[0, 'rgba(255,0,0,0.8)'],[0.8, 'rgba(255,255,255,0.1)']]
+        //                 )
+        //             })()
+        //         }
+        //     }
+        // },
+        // itemStyle: {normal: {areaStyle: {color: 'rgba(219,231,255,255)'}}},
+        itemStyle: {normal: {areaStyle: {type: 'default'}}},
+          data: [],
+          axisLabel: {
+            forma
