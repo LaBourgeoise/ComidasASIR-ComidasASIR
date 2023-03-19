@@ -88,4 +88,11 @@ chartOption: EChartOption = {
                 padding: 12,
                 textStyle : {
                   color: '#fff',
-                  decoration
+                  decoration: 'none',
+                  fontFamily: 'Verdana, sans-serif',
+                  fontSize: 10,
+                },
+                formatter: '<div style="width:auto;float:left; margin-right:40%;"><span style="display:block;float:none">Age</span><span style="display:block;float:none"> {b} </span></div>'+
+                '<div style="width:auto;float:left"><span style="display:block;float:none">Year</span><span style="display:block;float:none"> 2044 </span></div>' +
+                '<br/>' + '<br/>' +'<hr/>' +
+                '<div style="width:auto;float:left; margin-right:10px;"><span style="display:block;float:none">Net Worth</span><span style="display:block;floa
