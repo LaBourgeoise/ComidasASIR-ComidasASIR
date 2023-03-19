@@ -95,4 +95,16 @@ chartOption: EChartOption = {
                 formatter: '<div style="width:auto;float:left; margin-right:40%;"><span style="display:block;float:none">Age</span><span style="display:block;float:none"> {b} </span></div>'+
                 '<div style="width:auto;float:left"><span style="display:block;float:none">Year</span><span style="display:block;float:none"> 2044 </span></div>' +
                 '<br/>' + '<br/>' +'<hr/>' +
-                '<div style="width:auto;float:left; margin-right:10px;"><span style="display:block;float:none">Net Worth</span><span style="display:block;floa
+                '<div style="width:auto;float:left; margin-right:10px;"><span style="display:block;float:none">Net Worth</span><span style="display:block;float:none"> {c} lac</span></div>'+
+                '<div style="width:auto;float:left"><span style="display:block;float:none">Savings</span><span style="display:block;float:none"> 2.4 lac </span></div>'        
+            },
+          data:function (){
+              var list = [];
+              list=[21, 95, 52, { value:45, symbol: '<fa name="home" class="home-icon"></fa>', symbolSize : 15,}, 40, 94, { value:28, symbol: 'star', symbolSize : 15,}, 78, 42, 47, 85, 37, 87, 13, 33, 71, 91, 98, 48, 78, 3, 44, 35, 64, 3, 5, 84, 21, 75, 58, 27, 90, 8, 27, 57, 55, 49, 60, 3, 68, 92, 50, 77, 67, 80, 43];
+              return list;
+          }()
+      }
+  ],
+  calculable:false
+};
+}
