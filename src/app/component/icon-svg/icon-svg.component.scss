@@ -1,3 +1,23 @@
 
 .svgIcon {
-    display:
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+   }
+
+   .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+
+  .iconStyle{
+    border-radius: 7px;
+    box-shadow: inset 50px 0px 0px 0px #cee9fe;
+    padding: 6px 9px 6px 9px;
+    width: 24px;
+    height: 28px;
+}
