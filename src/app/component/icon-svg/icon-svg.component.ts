@@ -9,4 +9,11 @@ import { Component, Input, OnInit } from '@angular/core';
     </svg>`
 })
 export class IconSvgComponent implements OnInit {
-  @Input
+  @Input() icon: string;
+  @Input() appliedStyle: string;
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
